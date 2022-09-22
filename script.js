@@ -19,7 +19,7 @@ function logger () {
 logger ();
 logger ();
 logger ();
-*/
+
 
 function fruitProcessor (apples, oranges) {
     //console.log (apples, oranges);
@@ -32,3 +32,19 @@ console.log (appleJuice);
 
 const appleOrangeJuice = fruitProcessor (2, 5);
 console.log (appleOrangeJuice);
+*/
+
+// Function Declarations
+function calcAge1 (birthyear) {
+    return 2037 - birthyear;
+}
+const age1 = calcAge1 (1999);
+
+
+// Function Expressions
+const calcAge2 = function (birthyear) {
+    return 2037 - birthyear;
+}
+const age2 = calcAge2 (1997);
+
+console.log (age1, age2);

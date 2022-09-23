@@ -140,4 +140,8 @@ const friend2 = "Steven";
 const friend3 = "Peter";
 
 const friends = ["Michael", "Steven", "Peter"];
-console.log (friends);
+console.log (friends[0]);
+console.log (friends[2]);
+
+console.log (friends.length);
+console.log (friends[friends.length - 3]);

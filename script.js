@@ -102,7 +102,7 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 
 console.log (yearsUntilRetirement (2000, "Jonas"));
 console.log (yearsUntilRetirement (1960, "Mike"));
-*/
+
 
 // Coding Challenge #1
 const calcAverage = (a, b, c) => (a + b + c) / 3;
@@ -131,3 +131,6 @@ checkWinner (576, 111);
 // scoreKoalas = calcAverage (23, 34, 27);
 // console.log (scoreDolphins, scoreKoalas);
 // checkWinner (scoreDolphins, scoreKoalas);
+*/
+
+// Introduction to Arrays

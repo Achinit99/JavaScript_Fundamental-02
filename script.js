@@ -83,3 +83,14 @@ console.log (fruitProcessor (2, 3));
 
 
 // Reviewing Functions
+const calcAge = function (birthYear) {
+    return 2037 - birthYear;
+}
+
+const yearsUntilRetirement = (birthYear, firstName) => {
+    const age = calcAge (birthYear);
+    const retirement = 65 - age;
+    //return retirement;
+    return `${firstName} retires in ${retirement} years`;
+}
+yearsUntilRetirement (1999, "Thathsarani");

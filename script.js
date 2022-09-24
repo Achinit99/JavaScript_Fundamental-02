@@ -182,3 +182,5 @@ console.log (newlength);
 
 friends.unshift ("Dilki");
 console.log (friends);
+
+// Remove Elements

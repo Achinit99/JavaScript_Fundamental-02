@@ -135,13 +135,18 @@ checkWinner (576, 111);
 
 // Introduction to Arrays
 
-const friend1 = "Michael";
-const friend2 = "Steven";
-const friend3 = "Peter";
+const friend1 = "Michael"; // 0
+const friend2 = "Steven"; // 1
+const friend3 = "Peter"; // 2
 
 const friends = ["Michael", "Steven", "Peter"];
-console.log (friends[0]);
+console.log (friends);
+console.log (friends[0]); // 1 - array
 console.log (friends[2]);
 
-console.log (friends.length);
+console.log (friends.length); // 2 - array
 console.log (friends[friends.length - 3]);
+
+friends[2] = "Achini"; // new replace 2 - array achini
+console.log (friends);
+

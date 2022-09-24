@@ -150,3 +150,7 @@ console.log (friends[friends.length - 3]);
 friends[2] = "Achini"; // new replace 2 - array achini
 console.log (friends);
 
+const firstName = "Achini";
+const Achini = [firstName, "Thathsarani", 2037 - 1999, "teacher", friends];
+console.log (Achini);
+console.log (Achini.length);

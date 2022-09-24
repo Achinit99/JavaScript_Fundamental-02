@@ -174,6 +174,11 @@ console.log (ages);
 
 // Basic Array Operations (Methods)
 const friends = ["Michael", "Steven", "Peter"];
+
+// Add Elements
 const newlength = friends.push ("Achini");
 console.log (friends);
 console.log (newlength);
+
+friends.unshift ("Dilki");
+console.log (friends);

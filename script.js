@@ -184,3 +184,12 @@ friends.unshift ("Dilki");
 console.log (friends);
 
 // Remove Elements
+friends.pop ();  // Array Last Remove - one by one
+console.log (friends);
+
+const popped = friends.pop ();  // Array Last Remove - All Remove
+console.log (popped);
+
+
+friends.shift ();  // Array First - Remove
+console.log (friends);

@@ -194,3 +194,4 @@ friends.shift ();  // Array First - Remove
 console.log (friends);
 
 console.log (friends.indexOf ("Steven"));
+console.log (friends.indexOf ("Steven"));

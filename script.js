@@ -196,3 +196,4 @@ console.log (friends);
 console.log (friends.indexOf ("Steven"));
 console.log (friends.indexOf ("Bob"));
 console.log (friends.indexOf ("Menu"));
+console.log (friends.indexOf ("Rashmi"));

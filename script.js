@@ -183,6 +183,7 @@ console.log (newlength);
 friends.unshift ("Dilki");
 console.log (friends);
 
+
 // Remove Elements
 friends.pop ();  // Array Last Remove - one by one
 console.log (friends);
@@ -195,5 +196,12 @@ console.log (friends);
 
 console.log (friends.indexOf ("Steven"));
 console.log (friends.indexOf ("Bob"));
-console.log (friends.indexOf ("Menu"));
-console.log (friends.indexOf ("Rashmi"));
+
+friends.push(23) // -->
+console.log (friends.includes ("Steven"));
+console.log (friends.includes ("Bob"));
+console.log (friends.includes (23)); // -->
+
+if (friends.includes ("Steven")) {
+    console.log ("You have a frind called Steven");
+}

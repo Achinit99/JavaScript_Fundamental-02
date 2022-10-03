@@ -221,3 +221,18 @@ console.log (bills, tips, totals);
 */
 
 // Introduction to Objects
+const jonasArray = [
+    'Jonas',
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Achini', 'Kawshalya']
+];
+
+const jonas = {
+    firstNamne : 'Jonas',
+    lastName : 'Schmedtmann',
+    age : 2037 - 1991,
+    job : 'teacher',
+    friends : ['Michael', 'Achini', 'Kawshalya']
+};

@@ -258,4 +258,10 @@ console.log (jonas ['last' + nameKey]);
 
 const interestedIn = prompt ('What do you want to know about Jonas? Choose between fristName, lastName, age, job, and friends');
 // console.log (interestedIn);
-console.log (jonas [interestedIn]);
+// console.log (jonas [interestedIn]);
+
+if (jonas [interestedIn]) {
+    console.log (jonas[interestedIn]);
+} else {
+    console.log ('Wrong request! Choose between firstName, lastName, age, job, and friends');
+}

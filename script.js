@@ -269,3 +269,8 @@ if (jonas [interestedIn]) {
 jonas.location = 'Sri Lanka'; // Add
 jonas ['twitter'] = '@jonasschmedtman';
 console.log (jonas);
+
+
+// Challenge
+// "Jonas has 3 friends, and his best friend is called Michael"
+console.log (`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends [0]}`);

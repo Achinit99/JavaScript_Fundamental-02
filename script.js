@@ -170,7 +170,7 @@ console.log (age1, age2, age3);
 
 const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length - 1])];
 console.log (ages);
-*/
+
 
 // Basic Array Operations (Methods)
 const friends = ["Michael", "Steven", "Peter"];
@@ -205,3 +205,6 @@ console.log (friends.includes (23)); // -->
 if (friends.includes ("Steven")) {
     console.log ("You have a frind called Steven");
 }
+*/
+
+// Coding Challenge #2

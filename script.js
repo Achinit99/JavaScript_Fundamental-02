@@ -247,5 +247,7 @@ const jonas = {
     job : 'teacher',
     friends : ['Michael', 'Achini', 'Kawshalya']
 };
-console.log (jonas);
-console.log (jonas.lastName);
+console.log (jonas); 
+
+console.log (jonas.lastName); // (1-)
+console.log (['jonas.lastName']); // (2-)

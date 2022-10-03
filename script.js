@@ -277,3 +277,11 @@ console.log (`${jonas.firstName} has ${jonas.friends.length} friends, and his be
 */
 
 // Object Methods
+const jonas = {
+    firstName : 'Jonas',
+    lastName : 'Schmedtmann',
+    age : 1991,
+    job : 'teacher',
+    friends : ['Michael', 'Achini', 'Kawshalya']
+    hasDriversLicense : true,
+};

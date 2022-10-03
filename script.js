@@ -241,7 +241,7 @@ const jonas = {
 // Dot vs. Bracket Notation
 
 const jonas = {
-    firstNamne : 'Jonas',
+    firstName : 'Jonas',
     lastName : 'Schmedtmann',
     age : 2037 - 1991,
     job : 'teacher',
@@ -251,3 +251,7 @@ console.log (jonas);
 
 console.log (jonas.lastName); // (1-)
 console.log (['jonas.lastName']); // (2-)
+
+const nameKey = 'Name';
+console.log (jonas ['first' + nameKey]);
+console.log (jonas ['last' + nameKey]);

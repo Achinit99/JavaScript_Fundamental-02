@@ -282,6 +282,13 @@ const jonas = {
     lastName : 'Schmedtmann',
     age : 1991,
     job : 'teacher',
-    friends : ['Michael', 'Achini', 'Kawshalya']
-    hasDriversLicense : true,
+    friends : ['Michael', 'Achini', 'Kawshalya'],
+};
+
+const Achini = {
+    firstName : 'Jonas',
+    lastName : 'Schmedtmann',
+    age : 1991,
+    job : 'teacher',
+    friends : ['Michael', 'Achini', 'Kawshalya'],
 };

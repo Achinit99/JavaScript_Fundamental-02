@@ -285,10 +285,23 @@ const jonas = {
     friends : ['Michael', 'Achini', 'Kawshalya'],
     hasDriversLicense : true,
 
-    calcAge : function (birthYear) {
-        return 2037 - birthYear;
+    // calcAge : function (birthYear) {
+    //     return 2037 - birthYear;
+    // }
+
+//     calcAge : function () {
+//         // console.log (this);
+//         return 2037 - this.birthYear;
+//     }
+
+    calcAge : function () {
+            this.age = 2037 - this.birthYear;
+            return this.age;
     }
+
 };
 
-console.log (jonas.calcAge (1991));
-console.log (jonas ['calcAge'] (1991));
+console.log (jonas.calcAge ());
+//console.log (jonas.age ());
+// console.log (jonas ['calcAge'] (1991));
+

@@ -274,7 +274,7 @@ console.log (jonas);
 // Challenge
 // "Jonas has 3 friends, and his best friend is called Michael"
 console.log (`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends [0]}`);
-*/
+
 
 // Object Methods
 const jonas = {
@@ -312,3 +312,6 @@ console.log (jonas.calcAge ());
 // Challenge 
 // "Jonas is a 46-year old teacher, and he has a driver's license"
 console.log (jonas.getSummary ());
+*/
+
+// Coding Challenge #3

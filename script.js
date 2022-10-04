@@ -283,12 +283,12 @@ const jonas = {
     age : 1991,
     job : 'teacher',
     friends : ['Michael', 'Achini', 'Kawshalya'],
+    hasDriversLicense : true,
+
+    calcAge : function (birthYear) {
+        return 2037 - birthYear;
+    }
 };
 
-const Achini = {
-    firstName : 'Jonas',
-    lastName : 'Schmedtmann',
-    age : 1991,
-    job : 'teacher',
-    friends : ['Michael', 'Achini', 'Kawshalya'],
-};
+console.log (jonas.calcAge (1991));
+console.log (jonas ['calcAge'] (1991));

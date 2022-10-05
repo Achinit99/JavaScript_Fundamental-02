@@ -347,23 +347,26 @@ if (mark.bmi, john.bmi) {
 } else if (john.bmi > mark.bmi) {
     console.log (`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`);
 }
-*/
+
 
 // Iteration _ The for Loop
 
-// console.log ('Lifting weights repetition 1');
-// console.log ('Lifting weights repetition 2');
-// console.log ('Lifting weights repetition 3');
-// console.log ('Lifting weights repetition 4');
-// console.log ('Lifting weights repetition 5');
-// console.log ('Lifting weights repetition 6');
-// console.log ('Lifting weights repetition 7');
-// console.log ('Lifting weights repetition 8');
-// console.log ('Lifting weights repetition 9');
-// console.log ('Lifting weights repetition 10');
+console.log ('Lifting weights repetition 1');
+console.log ('Lifting weights repetition 2');
+console.log ('Lifting weights repetition 3');
+console.log ('Lifting weights repetition 4');
+console.log ('Lifting weights repetition 5');
+console.log ('Lifting weights repetition 6');
+console.log ('Lifting weights repetition 7');
+console.log ('Lifting weights repetition 8');
+console.log ('Lifting weights repetition 9');
+console.log ('Lifting weights repetition 10');
 
 // for loop keeps running while condition is TRUE
 
 // for (let rep = 5; rep <= 10; rep = rep++) {
 //     console.log (`Lifting weights repetition ${rep}`);
 // }
+*/
+
+// Looping Arrays, Breaking and Continuing 

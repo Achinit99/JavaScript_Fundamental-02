@@ -376,8 +376,11 @@ const jonas = [
     'Schmedtmann',
     2037 - 1991,
     'teacher',
-    ['Michael', 'Achini', 'Kawshalya']
+    ['Michael', 'Achini', 'Kawshalya'],
+    true
 ];
+
+const types = [];
 
 // console.log (jonas[0])
 // console.log (jonas[0])
@@ -385,6 +388,15 @@ const jonas = [
 // console.log (jonas[0])
 // jonas [5] does NOT exist
 
-for (let i = 0; i < 5; i++) {
-    console.log (jonas [i]);
+for (let i = 0; i < jonas.length; i++) {
+    // Reading from jonas array
+    console.log (jonas [i], typeof jonas [i]);
+
+    types [i] = typeof jonas [i];
 }
+
+console.log (types);
+
+// for (let i = 0; i < 5; i++) {
+//     console.log (jonas [i]);
+// }

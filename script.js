@@ -312,7 +312,7 @@ console.log (jonas.calcAge ());
 // Challenge 
 // "Jonas is a 46-year old teacher, and he has a driver's license"
 console.log (jonas.getSummary ());
-*/
+
 
 // Coding Challenge #3
 const mark = {
@@ -347,3 +347,6 @@ if (mark.bmi, john.bmi) {
 } else if (john.bmi > mark.bmi) {
     console.log (`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`);
 }
+*/
+
+// Iteration _ The for Loop

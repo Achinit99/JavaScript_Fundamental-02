@@ -364,6 +364,6 @@ if (mark.bmi, john.bmi) {
 
 // for loop keeps running while condition is TRUE
 
-// for (let rep = 1; rep <= 10; rep = rep++) {
-//     console.log ('Lifting weights repetition 1');
+// for (let rep = 5; rep <= 10; rep = rep++) {
+//     console.log (`Lifting weights repetition ${rep}`);
 // }

@@ -429,7 +429,7 @@ for (let i = 0; i < jonas.length; i++) {
 
     console.log (jonas [i], typeof jonas [i]);
 }
-*/
+
 
 // Looping Backwards and Loops in Loops
 
@@ -456,3 +456,6 @@ for (let exercise = 1; exercise < 4; exercise++) {
         console.log (`Exercise ${exercise} Lifting weight repetition ${rep} 👩‍⚕️`);
     }
 }
+*/
+
+// The While Loop

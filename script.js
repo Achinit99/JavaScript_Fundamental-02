@@ -432,3 +432,14 @@ for (let i = 0; i < jonas.length; i++) {
 */
 
 // Looping Backwards and Loops in Loops
+
+const jonas = [
+    'Jonas',
+    'Schmedtmann',
+    2037 - 1991,
+    'teacher',
+    ['Michael', 'Achini', 'Kawshalya']
+];
+
+// 0, 1, ..., 4
+// 4, 3, ..., 0

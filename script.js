@@ -478,7 +478,7 @@ while (dice !== 6) {
     dice = Math.trunc (Math.random () * 6) + 1;
     if (dice === 6) console.log ('Loop is about to end...');
 }
-*/
+
 
 // Coding Challenge #4
 
@@ -508,3 +508,15 @@ const calcAverage = function (arr) {
 console.log (calcAverage([2, 3, 7]));
 console.log (calcAverage(totals));
 console.log (calcAverage(tips));
+*/
+
+////////////////////////////////////////////////////////////////
+
+// Control Statements Using If-Else Conditionals & Logic
+
+prompt("What is your name?");
+prompt("What is their name?");
+
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1;
+alert("Your love score is " + loveScore + "%");

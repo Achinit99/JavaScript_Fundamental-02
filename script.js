@@ -508,7 +508,7 @@ const calcAverage = function (arr) {
 console.log (calcAverage([2, 3, 7]));
 console.log (calcAverage(totals));
 console.log (calcAverage(tips));
-*/
+
 
 ////////////////////////////////////////////////////////////////
 
@@ -520,3 +520,4 @@ prompt("What is their name?");
 var loveScore = Math.random() * 100;
 loveScore = Math.floor(loveScore) + 1;
 alert("Your love score is " + loveScore + "%");
+*/
